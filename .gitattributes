@@ -1,0 +1,1 @@
+"* text=auto"  "*.c text"  "*.h text"  "*.py text"  "*.html text"  "*.css text"  "*.js text"  "*.jpg binary"  "*.png binary"  "*.gif binary"  "*.ico binary"  "*.pdf binary"  "*.zip binary" 
