@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;  /* Set the font family for the body */
+    display: flex;  /* Use flexbox to center content */
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;  /* Center content vertically */
+    height: 100vh;  /* Set the height to 100% of the viewport */
+    margin: 0;  /* Remove default margin */
+    background-color: #f4f4f4;  /* Set a background color */
+}
+
+.container {
+    background: white;  /* Set the container background to white */
+    padding: 20px;  /* Add padding inside the container */
+    border: 1px solid #ccc;  /* Set border style for the container */
+    border-radius: 10px;  /* Add border-radius to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add box shadow for subtle 3D effect */
+    text-align: center;  /* Center align the text inside the container */
+}
+
+h1 {
+    color: #333;  /* Set the color for the header */
+}
+
+form {
+    margin: 20px 0;  /* Add margin to the form */
+}
+
+label {
+    display: block;  /* Display labels as block elements */
+    margin-bottom: 5px;  /* Add margin below each label */
+}
+
+input[type="number"] {
+    width: 100%;  /* Set input fields to take full width */
+    padding: 8px;  /* Add padding to input fields */
+    margin-bottom: 10px;  /* Add margin below input fields */
+    border: 1px solid #ccc;  /* Set border style for input fields */
+    border-radius: 4px;  /* Add border-radius to input fields */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;  /* Add padding to submit button */
+    background-color: #4CAF50;  /* Set background color for submit button */
+    color: white;  /* Set text color for submit button */
+    border: none;  /* Remove border for submit button */
+    border-radius: 4px;  /* Add border-radius to submit button */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;  /* Change background color on hover */
+}

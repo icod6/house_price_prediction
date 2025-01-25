@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>House Price Prediction</h1>
+        <form action="/predict" method="post">
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <input type="number" step="1" id="bedrooms" name="bedrooms" required><br><br>
+
+            <label for="bathrooms">Number of Bathrooms:</label>
+            <input type="number" step="0.5" id="bathrooms" name="bathrooms" required><br><br>
+
+            <label for="size">Size in Square Feet:</label>
+            <input type="number" step="1" id="size" name="size" required><br><br>
+
+            <label for="longitude">Longitude:</label>
+            <input type="number" step="0.0001" id="longitude" name="longitude" required placeholder="Enter longitude within california. eg: -122.41"><br><br>
+
+            <label for="latitude">Latitude:</label>
+            <input type="number" step="0.0001" id="latitude" name="latitude" required placeholder="Enter latitude within california. eg: 37.77"><br><br>
+
+            <input type="submit" value="Predict">
+        </form>
+        {% if prediction_text %}
+        <h2>{{ prediction_text }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
