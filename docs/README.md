@@ -18,13 +18,15 @@
 
 
 ## Usage
-
+    execute model with command:
+    python model.py
+    
     Run the Flask application with command: 
     python app.py
 
     Open browser and go to http://127.0.0.1:5000/.
 
-    - Fill out the form with the desired features (Total Bedrooms, Total bathrooms, Longitude, Latitude).
+    - Fill out the form with the desired features (Number of Bedrooms, Number of bathrooms, Ara in sqft, Longitude, Latitude).
 
     - Submit the form to get the predicted house price.
 
@@ -35,7 +37,7 @@
 
     Real-time predictions with a simple web interface.
 
-    Features used for prediction: Total Bedrooms, Total bathrooms, Longitude, Latitude.
+    Features used for prediction: Number of Bedrooms, Number of bathrooms, Ara in sqft, Longitude, Latitude.
 
 
 ## Model
@@ -71,7 +73,7 @@
     - scikit-learn==0.24.2
     - numpy==1.21.2
 
-    You can install these dependencies using the `requirements.txt` file. Make sure you have a virtual environment set up and activated, then run:
+    You can install these dependencies using the `requirements.txt` file., then run:
     command: on windows
     pip install -r requirements.txt
 
