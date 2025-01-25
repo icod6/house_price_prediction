@@ -12,11 +12,6 @@
         git clone https://github.com/icod6/house_price_prediction.git
         cd house_price_prediction
 
-    2. **Create and activate a virtual environment**:
-        command: On Windows
-        python -m venv venv         //create
-        venv\Scripts\activate       //activate
-
     3. **Install the dependencies:**
         coomand: on windows
         pip install -r requirements.txt
@@ -24,9 +19,10 @@
 
 ## Usage
 
-    Run the Flask application with command: python app.py
+    Run the Flask application with command: 
+    python app.py
 
-    Open your browser and go to http://127.0.0.1:5000/.
+    Open browser and go to http://127.0.0.1:5000/.
 
     - Fill out the form with the desired features (Total Bedrooms, Total bathrooms, Longitude, Latitude).
 
