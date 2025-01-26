@@ -13,7 +13,7 @@
         cd house_price_prediction
 
     3. **Install the dependencies:**
-        coomand: on windows
+        command: on windows
         pip install -r requirements.txt
 
 
